@@ -1,4 +1,5 @@
 #!/bin/sh
+sudo apt install build-essential dkms -y
 git clone https://github.com/gnab/rtl8812au.git
 rm -rf rtl8812au/os_dep/linux/usb_intf.c
 mv rtl8812au-installer/usb_intf.c rtl8812au/os_dep/linux/
